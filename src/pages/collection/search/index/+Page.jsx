@@ -26,7 +26,7 @@ export default function SearchScreen() {
 			if (Object.keys(next))
 				for (const [key, val] of Object.entries(next))
 					switch (key) {
-						case 'search':
+						case 'appendSearch':
 							if (!(options.search || '').includes(val))
 								params.set('search', options.search ? `${options.search.trim()} ${val}` : val)
 							break
