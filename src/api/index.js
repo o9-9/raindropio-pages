@@ -4,6 +4,8 @@ import * as filters from './filters'
 import * as raindrops from './raindrops'
 import * as user from './user'
 
+export * from './errors'
+
 export default {
     collection,
     collections,
